@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Main-Class: cn.jianchen.com.SchoolTradeApiApplication
+Class-Path: spring-boot-starter-aop-2.1.8.RELEASE.jar spring-beans-5.1.9
+ .RELEASE.jar aliyun-java-sdk-ram-3.0.0.jar jettison-1.1.jar httpclient-
+ 4.5.9.jar guava-15.0.jar xmlbeans-3.1.0.jar c3p0-0.9.5.2.jar activation
+ -1.1.1.jar javassist-3.19.0-GA.jar jackson-datatype-jdk8-2.9.9.jar mini
+ o-3.0.7.jar antlr-2.7.7.jar jul-to-slf4j-1.7.28.jar javax.activation-ap
+ i-1.2.0.jar google-http-client-xml-1.20.0.jar spring-data-commons-2.1.1
+ 0.RELEASE.jar snakeyaml-1.23.jar spring-context-5.1.9.RELEASE.jar sprin
+ g-boot-starter-tomcat-2.1.8.RELEASE.jar okio-1.12.0.jar hibernate-core-
+ 5.3.11.Final.jar spring-core-5.1.9.RELEASE.jar curvesapi-1.06.jar commo
+ ns-collections4-4.1.jar HikariCP-3.2.0.jar jaxb-api-2.3.1.jar spring-we
+ bmvc-5.1.9.RELEASE.jar jedis-2.9.3.jar jdom-1.1.jar spring-jdbc-5.1.9.R
+ ELEASE.jar spring-boot-starter-2.1.8.RELEASE.jar byte-buddy-1.9.16.jar 
+ dom4j-2.1.1.jar jboss-logging-3.3.3.Final.jar commons-compress-1.19.jar
+  jaxb-impl-2.1.jar jackson-databind-2.9.9.3.jar spring-boot-autoconfigu
+ re-2.1.8.RELEASE.jar jackson-module-parameter-names-2.9.9.jar aspectjwe
+ aver-1.9.4.jar spring-data-jpa-2.1.10.RELEASE.jar javax.annotation-api-
+ 1.3.2.jar xpp3-1.1.4c.jar stax-api-1.0.1.jar slf4j-api-1.7.28.jar poi-o
+ oxml-schemas-4.1.1.jar ss-commons-0.2.4.jar httpcore-4.4.12.jar hiberna
+ te-validator-6.0.17.Final.jar jandex-2.0.5.Final.jar ss-kvcache-0.2.jar
+  poi-3.16.jar spring-boot-starter-data-jpa-2.1.8.RELEASE.jar commons-co
+ dec-1.11.jar jackson-annotations-2.9.0.jar annotations-2.0.1.jar javax.
+ persistence-api-2.2.jar logback-core-1.2.3.jar spring-aop-5.1.9.RELEASE
+ .jar logback-classic-1.2.3.jar spring-jcl-5.1.9.RELEASE.jar jackson-cor
+ e-2.9.9.jar spring-boot-devtools-2.1.8.RELEASE.jar spring-expression-5.
+ 1.9.RELEASE.jar spring-web-5.1.9.RELEASE.jar mail-1.4.7.jar spring-boot
+ -starter-web-2.1.8.RELEASE.jar commons-pool2-2.6.2.jar spring-boot-star
+ ter-jdbc-2.1.8.RELEASE.jar aliyun-java-sdk-ecs-4.2.0.jar commons-lang3-
+ 3.7.jar jackson-datatype-jsr310-2.9.9.jar aliyun-java-sdk-core-4.0.3.ja
+ r tomcat-embed-core-9.0.24.jar aliyun-java-sdk-sts-3.0.0.jar mchange-co
+ mmons-java-0.2.11.jar log4j-to-slf4j-2.11.2.jar jsr305-3.0.1.jar okhttp
+ -3.7.0.jar log4j-api-2.11.2.jar spring-boot-2.1.8.RELEASE.jar javax.tra
+ nsaction-api-1.3.jar spring-boot-starter-logging-2.1.8.RELEASE.jar clas
+ smate-1.4.0.jar aliyun-sdk-oss-3.5.0.jar spring-orm-5.1.9.RELEASE.jar t
+ omcat-embed-websocket-9.0.24.jar spring-aspects-5.1.9.RELEASE.jar jaxb-
+ core-2.1.14.jar tomcat-embed-el-9.0.24.jar poi-ooxml-4.1.1.jar hibernat
+ e-commons-annotations-5.0.4.Final.jar spring-boot-starter-json-2.1.8.RE
+ LEASE.jar joda-time-2.10.3.jar fastjson-1.2.28.jar mysql-connector-java
+ -8.0.17.jar spring-tx-5.1.9.RELEASE.jar validation-api-2.0.1.Final.jar 
+ reflections-0.9.10.jar gson-2.8.5.jar google-http-client-1.20.0.jar
+
