@@ -61,7 +61,7 @@ public class CommentService implements ICommentService {
         Orders order = ordersService.getById(comment.getOrdersId());
         order.setStatus(COMMENTED);
 
-        comment.setCreateAt(System.currentTimeMillis());
+        comment.setCreatedAt(System.currentTimeMillis());
 
         commentRepository.save(comment);
     }

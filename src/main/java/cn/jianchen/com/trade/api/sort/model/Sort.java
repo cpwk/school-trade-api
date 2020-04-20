@@ -27,7 +27,7 @@ public class Sort {
     private Integer parentId;
 
     @Column
-    private Byte priority;
+    private Integer priority;
 
     @Column
     private Byte status;
@@ -70,11 +70,11 @@ public class Sort {
         this.parentId = parentId;
     }
 
-    public Byte getPriority() {
+    public Integer getPriority() {
         return priority;
     }
 
-    public void setPriority(Byte priority) {
+    public void setPriority(Integer priority) {
         this.priority = priority;
     }
 

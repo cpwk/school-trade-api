@@ -27,8 +27,8 @@ public class VipUser {
     @Column(name = "vip_id")
     private Integer vipId;
 
-    @Column(name = "create_at")
-    private Long createAt;
+    @Column(name = "created_at")
+    private Long createdAt;
 
     @Column(name = "expire_at")
     private Long expireAt;
@@ -83,12 +83,12 @@ public class VipUser {
         this.vipId = vipId;
     }
 
-    public Long getCreateAt() {
-        return createAt;
+    public Long getCreatedAt() {
+        return createdAt;
     }
 
-    public void setCreateAt(Long createAt) {
-        this.createAt = createAt;
+    public void setCreatedAt(Long createdAt) {
+        this.createdAt = createdAt;
     }
 
     public Long getExpireAt() {

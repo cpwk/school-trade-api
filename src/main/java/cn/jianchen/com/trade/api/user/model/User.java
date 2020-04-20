@@ -37,7 +37,7 @@ public class User {
     private long createdAt;
 
     @Column
-    private String img;
+    private String avatar;
 
     @Column
     private BigDecimal balance;
@@ -53,12 +53,12 @@ public class User {
         this.balance = balance;
     }
 
-    public String getImg() {
-        return img;
+    public String getAvatar() {
+        return avatar;
     }
 
-    public void setImg(String img) {
-        this.img = img;
+    public void setAvatar(String avatar) {
+        this.avatar = avatar;
     }
 
     public Integer getId() {

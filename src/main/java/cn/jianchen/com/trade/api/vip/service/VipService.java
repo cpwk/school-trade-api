@@ -175,7 +175,7 @@ public class VipService implements IVipService {
         }
         vipUser.setVipId(vip.getId());
         vipUser.setUserId(user.getId());
-        vipUser.setCreateAt(System.currentTimeMillis());
+        vipUser.setCreatedAt(System.currentTimeMillis());
         vipUser.setExpireAt(System.currentTimeMillis());
         vipUser.setExpireAt(parseDuration(vipUser, vipUser.getDuration()));
         vipUser.setRemark("管理员开通");
@@ -187,7 +187,7 @@ public class VipService implements IVipService {
 
         vipUser.setUserId(Contexts.requestUserId());
 
-        vipUser.setCreateAt(System.currentTimeMillis());
+        vipUser.setCreatedAt(System.currentTimeMillis());
 
         vipUserRepository.save(vipUser);
     }
@@ -262,7 +262,7 @@ public class VipService implements IVipService {
             vipUser = new VipUser();
             vipUser.setUserId(Contexts.requestUserId());
             vipUser.setVipId(id);
-            vipUser.setCreateAt(System.currentTimeMillis());
+            vipUser.setCreatedAt(System.currentTimeMillis());
             vipUser.setExpireAt(System.currentTimeMillis());
             vipUser.setExpireAt(parseDuration(vipUser, duration));
             vipUser.setRemark("用户开通");

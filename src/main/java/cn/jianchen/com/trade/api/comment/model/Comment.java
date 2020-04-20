@@ -27,8 +27,8 @@ public class Comment {
     @Column(name = "user_id")
     private Integer userId;
 
-    @Column(name = "create_at")
-    private Long createAt;
+    @Column(name = "created_at")
+    private Long createdAt;
 
     @Column(name = "content")
     @Convert(converter = CommentArrayConverter.class)
@@ -76,12 +76,12 @@ public class Comment {
         this.content = content;
     }
 
-    public Long getCreateAt() {
-        return createAt;
+    public Long getCreatedAt() {
+        return createdAt;
     }
 
-    public void setCreateAt(Long createAt) {
-        this.createAt = createAt;
+    public void setCreatedAt(Long createdAt) {
+        this.createdAt = createdAt;
     }
 
     public Integer getOrdersId() {

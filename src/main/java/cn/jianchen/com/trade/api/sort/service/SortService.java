@@ -155,11 +155,11 @@ public class SortService implements ISortService {
                 }
             }
         }
-        if (sort.getStatus() == ZERO_BYTE) {
+        if (sort.getStatus().equals(ZERO_BYTE)) {
             sort.setStatus(STATUS_HALT);
         }
-        if (sort.getPriority() == ZERO_BYTE) {
-            sort.setPriority(STATUS_OK);
+        if (sort.getPriority() == ZERO_INT) {
+            sort.setPriority(STATUS_OK_INT);
         }
     }
 
