@@ -48,7 +48,7 @@ public interface IUserService {
 
     void modMibile(String mobile, VCode vCode) throws Exception;
 
-    List<User> findByIdIs(List<Integer> ids);
+    List<User> findByIdIn(List<Integer> ids);
 
     User findByMobile(String mobile) throws Exception;
 

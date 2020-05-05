@@ -64,7 +64,7 @@ public class ProductService implements IProductService {
     @Override
     public void outSome(List<Integer> ids) {
 
-        List<Product> products = productRepository.findByIdIs(ids);
+        List<Product> products = productRepository.findByIdIn(ids);
 
         for (Product product : products) {
             product.setStatus(PRODUCT_STOP_USED);
@@ -76,7 +76,7 @@ public class ProductService implements IProductService {
     @Override
     public void putSome(List<Integer> ids) {
 
-        List<Product> products = productRepository.findByIdIs(ids);
+        List<Product> products = productRepository.findByIdIn(ids);
 
         for (Product product : products) {
             product.setStatus(PRODUCT_USED);

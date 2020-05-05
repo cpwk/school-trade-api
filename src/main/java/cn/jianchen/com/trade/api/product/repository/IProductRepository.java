@@ -15,7 +15,7 @@ public interface IProductRepository extends BaseRepository<Product, Integer> {
 
     List<Product> findAllByIdIn(List<Integer> ids);
 
-    List<Product> findByIdIs(List<Integer> ids);
+    List<Product> findByIdIn(List<Integer> ids);
 
     List<Product> findAllBySortIdIn(List<String> codes);
 

@@ -29,6 +29,6 @@ public interface IOrdersService {
 
     void remove(int id);
 
-    List<Orders> findByIdIs(List<Integer> ids);
+    List<Orders> findByIdIn(List<Integer> ids);
 
 }

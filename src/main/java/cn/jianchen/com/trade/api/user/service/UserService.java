@@ -243,8 +243,8 @@ public class UserService implements IUserService {
     }
 
     @Override
-    public List<User> findByIdIs(List<Integer> ids) {
-        return userRepository.findByIdIs(ids);
+    public List<User> findByIdIn(List<Integer> ids) {
+        return userRepository.findByIdIn(ids);
     }
 
     @Override

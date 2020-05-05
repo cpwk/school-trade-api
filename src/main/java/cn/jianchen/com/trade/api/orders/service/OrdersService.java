@@ -98,7 +98,7 @@ public class OrdersService implements IOrdersService {
     }
 
     @Override
-    public List<Orders> findByIdIs(List<Integer> ids) {
-        return orderRepository.findByIdIs(ids);
+    public List<Orders> findByIdIn(List<Integer> ids) {
+        return orderRepository.findByIdIn(ids);
     }
 }

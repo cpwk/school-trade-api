@@ -19,6 +19,6 @@ public interface UserRepository extends BaseRepository<User, Integer> {
 
     User findByNick(String nick) throws Exception;
 
-    List<User> findByIdIs(List<Integer> ids);
+    List<User> findByIdIn(List<Integer> ids);
 
 }

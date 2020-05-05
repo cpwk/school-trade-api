@@ -129,7 +129,7 @@ public class UserCouponService implements IUserCouponService {
         for (Integer userId : map.keySet()) {
             ids.add(userId);
         }
-        List<User> users = userService.findByIdIs(ids);
+        List<User> users = userService.findByIdIn(ids);
 
         for (User user : users) {
             List<UserCoupon> list = map.get(user.getId());

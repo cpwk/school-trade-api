@@ -84,8 +84,8 @@ public class CommentService implements ICommentService {
             usersIds.add(comment.getUserId());
         }
 
-        List<Orders> orders = ordersService.findByIdIs(ordersIds);
-        List<User> users = userService.findByIdIs(usersIds);
+        List<Orders> orders = ordersService.findByIdIn(ordersIds);
+        List<User> users = userService.findByIdIn(usersIds);
 
         Map<Integer, Orders> ordersMap = new HashMap<>(orders.size());
         Map<Integer, User> userMap = new HashMap<>(users.size());

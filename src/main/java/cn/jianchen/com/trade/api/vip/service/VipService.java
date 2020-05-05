@@ -119,8 +119,8 @@ public class VipService implements IVipService {
             vipIds.add(vipUser.getVipId());
         }
 
-        List<User> users = userService.findByIdIs(userIds);
-        List<Vip> vips = vipRepository.findByIdIs(vipIds);
+        List<User> users = userService.findByIdIn(userIds);
+        List<Vip> vips = vipRepository.findByIdIn(vipIds);
 
         Map<Integer, User> userMap = new HashMap<>(users.size());
         Map<Integer, Vip> vipMap = new HashMap<>(vips.size());

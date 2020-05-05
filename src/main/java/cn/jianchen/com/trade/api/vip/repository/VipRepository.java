@@ -20,7 +20,7 @@ public interface VipRepository extends BaseRepository<Vip, Integer> {
 
     Vip findByName(String name);
 
-    List<Vip> findByIdIs(List<Integer> ids);
+    List<Vip> findByIdIn(List<Integer> ids);
 
     @Transactional
     @Modifying

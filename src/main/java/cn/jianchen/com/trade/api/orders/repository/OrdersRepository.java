@@ -13,6 +13,6 @@ import java.util.List;
 
 public interface OrdersRepository extends BaseRepository<Orders, Integer> {
 
-    List<Orders> findByIdIs(List<Integer> ids);
+    List<Orders> findByIdIn(List<Integer> ids);
 
 }
